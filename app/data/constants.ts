@@ -1,0 +1,81 @@
+export const books = [
+    {
+      id: "1",
+      title: "To Kill a Mockingbird",
+      author: "Harper Lee",
+      originalPrice: 15.99,
+      discountedPrice: 1.99,
+      condition: "Good",
+      imageUrl: "/placeholder.svg?height=200&width=150",
+      description: "A classic novel about racial injustice in the American South.",
+      category: "Fiction",
+      pages: 336,
+      language: "English",
+      isbn: "9780061120084",
+      publisher: "Harper Perennial Modern Classics",
+      publishedDate: "July 11, 2006",
+    },
+    {
+      id: "2",
+      title: "1984",
+      author: "George Orwell",
+      originalPrice: 12.99,
+      discountedPrice: 1.49,
+      condition: "Very Good",
+      imageUrl: "/placeholder.svg?height=200&width=150",
+      description: "A dystopian novel set in a totalitarian society.",
+      category: "Fiction",
+      pages: 328,
+      language: "English",
+      isbn: "9780451524935",
+      publisher: "Signet Classic",
+      publishedDate: "May 1, 2003",
+    },
+  ]
+  
+  export const impactStats = {
+    booksShared: 25000,
+    booksRead: 18750,
+    booksDonated: 7500,
+    moneyRaised: 12500,
+    schoolsSupported: 45,
+    communitiesReached: 120,
+    co2Saved: 75000,
+    treesPreserved: 1250,
+  }
+  
+  export const ngoPartners = [
+    {
+      id: "1",
+      name: "Literacy for All",
+      logo: "/placeholder.svg?height=80&width=80",
+      description: "Promoting literacy and education in underserved communities.",
+      booksReceived: 2500,
+      website: "https://example.com/literacy-for-all",
+    },
+    {
+      id: "2",
+      name: "Children's Book Foundation",
+      logo: "/placeholder.svg?height=80&width=80",
+      description: "Providing books to children in orphanages and foster care.",
+      booksReceived: 1800,
+      website: "https://example.com/childrens-book-foundation",
+    },
+    {
+      id: "3",
+      name: "Global Education Initiative",
+      logo: "/placeholder.svg?height=80&width=80",
+      description: "Supporting education in developing countries through book donations.",
+      booksReceived: 2100,
+      website: "https://example.com/global-education",
+    },
+    {
+      id: "4",
+      name: "Rural Reading Project",
+      logo: "/placeholder.svg?height=80&width=80",
+      description: "Bringing books to rural communities with limited access to libraries.",
+      booksReceived: 1100,
+      website: "https://example.com/rural-reading",
+    },
+  ]
+  
